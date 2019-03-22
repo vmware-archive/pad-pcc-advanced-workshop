@@ -20,5 +20,5 @@ The function need to be executed on a region. The method `FunctionService.onRegi
 
 ## Sample Functions
 - ### [SampleDataAwareFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/SampleDataAwareFunction.md)
-- ### [SmartQueryFunction] (https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/SmartQueryFunction.md)
-- ### [ClearPartitionRegionFunction] (https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/ClearPartitionRegionFunction.md)
+- ### [SmartQueryFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/SmartQueryFunction.md)
+- ### [ClearPartitionRegionFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/ClearPartitionRegionFunction.md)
