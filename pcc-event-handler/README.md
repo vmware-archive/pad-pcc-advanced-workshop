@@ -15,7 +15,7 @@ gfsh>deploy --jar=pcc-event-handler-1.0-SNAPSHOT.jar
 gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --cache-loader=io.pivotal.pcc.server.event.SampleCacheLoader
 ~~~
 
-#### [Sample Code](src/main/java/io/pivotal/pcc/server/event/SampleCacheLoader.java)
+#### Source Code: [SampleCacheLoader.java](src/main/java/io/pivotal/pcc/server/event/SampleCacheLoader.java)
 
 ##
 
@@ -35,7 +35,7 @@ gfsh>deploy --jar=pcc-event-handler-1.0-SNAPSHOT.jar
 gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --cache-writer=io.pivotal.pcc.server.event.SampleCacheWriter
 ~~~
 
-#### [Sample Code](src/main/java/io/pivotal/pcc/server/event/SampleCacheWriter.java)
+#### Source Code: [SampleCacheWriter.java](src/main/java/io/pivotal/pcc/server/event/SampleCacheWriter.java)
 
 ##
 
@@ -59,7 +59,7 @@ gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --cache-listene
 gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --cache-listener=io.pivotal.pcc.server.event.MyCacheListener1,io.pivotal.pcc.server.event.MyCacheListener2
 ~~~
 
-#### [Sample Code](src/main/java/io/pivotal/pcc/server/event/SampleCacheListener.java)
+#### Source Code: [SampleCacheListener.java](src/main/java/io/pivotal/pcc/server/event/SampleCacheListener.java)
 
 ##
 
@@ -87,7 +87,7 @@ gfsh>create async-event-queue --id=myAEQ --parallel=true --batch-size=100 --batc
 gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --async-event-queue-id=myAEQ
 ~~~
 
-#### [Sample Code](src/main/java/io/pivotal/pcc/server/event/SampleAsyncEventListener.java)
+#### Source Code: [SampleAsyncEventListener.java](src/main/java/io/pivotal/pcc/server/event/SampleAsyncEventListener.java)
 
 ##
 
@@ -96,4 +96,4 @@ gfsh>create region --name=orderRegion --type=PARTITION_REDUNDANT --async-event-q
 
 You will need to implement `GatewayConflicResolver` only when you want to override the default consistency checking behavior. By default, all regions perform consistency checks when a member applies an update received either from another cluster member or from a remote cluster over the WAN based on timestamp.
 
-#### [Sample Code](src/main/java/io/pivotal/pcc/server/event/SampleGatewayConflictResolver.java)
+#### Source Code: [SampleGatewayConflictResolver.java](src/main/java/io/pivotal/pcc/server/event/SampleGatewayConflictResolver.java)

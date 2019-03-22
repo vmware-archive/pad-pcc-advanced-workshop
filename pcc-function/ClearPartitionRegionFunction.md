@@ -40,3 +40,4 @@ ResultCollector rc = FunctionService.onRegion(orderRegion).execute("ClearPartiti
 List<String> results = (List<String>) rc.getResult();
 ~~~
 
+### Source Code: [ClearPartitionRegionFunction.java](src/main/java/io/pivotal/pcc/server/function/ClearPartitionRegionFunction.java)

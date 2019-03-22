@@ -37,3 +37,5 @@ String queryStr = "SELECT * FROM /orderRegion WHERE customerId = ?";
 ResultCollector rc = FunctionService.onRegion(orderRegion).setArguments(queryStr).withFilter(Collections.singleton(customerId)).execute("SmartQueryFunction");
 List<String> results = (List<String>) rc.getResult();
 ~~~
+
+### Source Code: [SmartQueryFunction.java](src/main/java/io/pivotal/pcc/server/function/SmartQueryFunction.java)
