@@ -1,4 +1,4 @@
-#SmartQueryFunction
+# SmartQueryFunction
 PCC has the ability to target specific node(s) in a query. If you know that a specific bucket(s) contains the data that you want to query, you can use a function to ensure that your query only runs the specific node(s) that holds the data. This can greatly improve query efficiency. This is done by executing the query in a function.
 
 - Invoke the function with `onRegion` and provide customerId as the filter in `withFilter` (assume order data is partitioned by customerId).
