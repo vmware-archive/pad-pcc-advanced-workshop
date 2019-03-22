@@ -1,4 +1,4 @@
-#ClearPartitionRegionFunction
+# ClearPartitionRegionFunction
 You will get `java.lang.UnsupportedOperationException` when you use either `region.clear()` API or `gfsh>remove --region=orderRegion --all` command to remove all entries from a **PARTITION** region. This function helps you to remove all entries from a PARTITION region.
 - Invoke the function with `onRegion` and not provide any filter. In this case, the function will be executed on all servers which host the partition data.
 - Have the function return true from `optimizeForWrite`, so that it is executed only on primary buckets.
