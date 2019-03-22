@@ -28,10 +28,15 @@ Process finished with exit code 0
 ```
 gfsh>deploy --jar=pcc-functions-1.0-SNAPSHOT.jar
 ```
+### Step 3: Execute the function using gfsh command
+```
+gfsh>execute function --id=ClearPartitionRegionFunction --region=orderRegion
+```
 
-### Step 3: Execute the function from your application
+### Step 4: Execute the function from your application
 ~~~
 Region<String, String>  orderRegion = ClientCacheFactory.getAnyInstance().getRegion("orderRegion");
 ResultCollector rc = FunctionService.onRegion(orderRegion).execute("ClearPartitionRegionFunction");
 List<String> results = (List<String>) rc.getResult();
 ~~~
+
