@@ -14,7 +14,7 @@ The function need to be executed on a region. The method `FunctionService.onRegi
 - On a specific server or set of servers—If you are connected to a cluster as a client, you can execute the function on a server or servers configured for a specific connection pool, or on a server or servers connected to a given cache using the default connection pool. For data-independent functions on client/server architectures, a client invokes FunctionService methods `onServer()` or `onServers()`.
 
 ## Getting Started
-- ### [Write PCC function code](https://www.google.com)
+- ### [Write PCC function code](pad-pcc-advanced-workshop/pcc-function/write_pcc_function_code.md)
 - ### [Deploy PCC function](https://www.google.com)
 - ### [Run PCC function](https://www.google.com)
 
