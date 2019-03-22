@@ -15,7 +15,7 @@ The function need to be executed on a region. The method `FunctionService.onRegi
 
 ## Getting Started
 - ### [Write PCC function code](write_pcc_function_code.md)
-- ### [Deploy PCC function](pcc-function/deploy_pcc_function.md)
+- ### [Deploy PCC function](deploy_pcc_function.md)
 - ### [Run PCC function](run_pcc_function.md)
 
 ## Sample Functions
