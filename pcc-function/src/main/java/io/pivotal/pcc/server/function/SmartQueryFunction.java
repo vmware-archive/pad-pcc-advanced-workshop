@@ -72,6 +72,6 @@ public class SmartQueryFunction implements Function {
 
     @Override
     public String getId() {
-        return SmartQueryFunction.class.getSimpleName();
+        return getClass().getName();
     }
 }

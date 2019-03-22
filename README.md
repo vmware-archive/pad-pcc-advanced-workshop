@@ -5,6 +5,7 @@ The purpose of this workshop is to introduce and demonstrate some of advanced fe
 - ### [Function](pcc-function/README.md)
 
 - ### [Event Handlers](pcc-event-handler/README.md)
-- ### [Partition Resolver]()
+- ### [Partition Resolver](pcc-partition-resolver/README.md)
+
 
 

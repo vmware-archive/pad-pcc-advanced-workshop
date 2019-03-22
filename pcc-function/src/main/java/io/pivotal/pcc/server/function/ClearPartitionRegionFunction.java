@@ -67,4 +67,24 @@ public class ClearPartitionRegionFunction implements Function {
             throw new FunctionException(e);
         }
     }
+
+    @Override
+    public String getId() {
+        return getClass().getName();
+    }
+
+    @Override
+    public boolean hasResult() {
+        return true;
+    }
+
+    @Override
+    public boolean optimizeForWrite() {
+        return true;
+    }
+
+    @Override
+    public boolean isHA() {
+        return true;
+    }
 }

@@ -66,7 +66,7 @@ public class SampleDataAwareFunction implements Function {
 
     @Override
     public String getId() {
-        return SampleDataAwareFunction.class.getSimpleName();
+        return getClass().getName();
     }
 
     @Override
