@@ -14,11 +14,11 @@ The function need to be executed on a region. The method `FunctionService.onRegi
 - On a specific server or set of servers—If you are connected to a cluster as a client, you can execute the function on a server or servers configured for a specific connection pool, or on a server or servers connected to a given cache using the default connection pool. For data-independent functions on client/server architectures, a client invokes FunctionService methods `onServer()` or `onServers()`.
 
 ## Getting Started
-- ### [Write PCC function code](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/write_pcc_function_code.md)
-- ### [Deploy PCC function](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/deploy_pcc_function.md)
-- ### [Run PCC function](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/run_pcc_function.md)
+- ### [Write PCC function code](write_pcc_function_code.md)
+- ### [Deploy PCC function](pcc-function/deploy_pcc_function.md)
+- ### [Run PCC function](run_pcc_function.md)
 
 ## Sample Functions
-- ### [SampleDataAwareFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/SampleDataAwareFunction.md)
-- ### [SmartQueryFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/SmartQueryFunction.md)
-- ### [ClearPartitionRegionFunction](https://github.com/Pivotal-Field-Engineering/pad-pcc-advanced-workshop/blob/master/pcc-function/ClearPartitionRegionFunction.md)
+- ### [SampleDataAwareFunction](SampleDataAwareFunction.md)
+- ### [SmartQueryFunction](SmartQueryFunction.md)
+- ### [ClearPartitionRegionFunction](ClearPartitionRegionFunction.md)
